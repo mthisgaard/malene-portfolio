@@ -1,197 +1,131 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { jobjob, beyond, oshare, spacewagon, watchlist } from "../assets";
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
+    id: "about",
+    title: "About",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "skills",
+    title: "Skills",
   },
   {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
-    title: "Clients",
+    id: "projects",
+    title: "Projects",
   },
 ];
 
-export const features = [
+export const skills = [
   {
-    id: "feature-1",
-    icon: star,
-    title: "Rewards",
-    content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    title: "Ruby & Ruby on Rails",
   },
   {
-    id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
+    title: "HTML",
   },
   {
-    id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
-];
-
-export const feedback = [
-  {
-    id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+    title: "CSS",
   },
   {
-    id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+    title: "Bootstrap",
   },
   {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+    title: "Tailwind",
+  },
+  {
+    title: "JavaScript ES6",
+  },
+  {
+    title: "StimulusJS",
+  },
+  {
+    title: "React",
+  },
+  {
+    title: "PHP",
+  },
+  {
+    title: "SQL",
+  },
+  {
+    title: "StimulusJS",
+  },
+  {
+    title: "git and GitHub",
+  },
+  {
+    title: "Heroku",
   },
 ];
 
-export const stats = [
+export const projects = [
   {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    id: "project-1",
+    name: "JobJob",
+    image: jobjob,
+    role: "Project Manager & Full-Stack Developer",
+    tech: "Rails, StimulusJS, PostgreSQL, Bootstrap",
+    url: "https://www.jobjob.pro/ ",
+    git: "https://github.com/mthisgaard/jobjob",
+    description:
+      "Desktop first web-app to keep track of all your job applications in one place.",
   },
   {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    id: "project-2",
+    name: "Beyond",
+    image: beyond,
+    role: "Full-Stack Developer",
+    tech: "React.js, Tailwind CSS",
+    url: "https://space-tourism-beyond.netlify.app/",
+    git: "https://github.com/mthisgaard/space-tourism-app",
+    description:
+      "Landing page for a fictive space tourism company, built using React.js and Tailwind CSS",
   },
   {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
-];
-
-export const footerLinks = [
-  {
-    title: "Useful Links",
-    links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
+    id: "project-3",
+    name: "Oshare",
+    image: oshare,
+    role: "Project Manager & Full-Stack Developer",
+    tech: "Rails, StimulusJS, PostgreSQL, Bootstrap",
+    url: "https://oshare-fit.herokuapp.com/",
+    git: "https://github.com/mthisgaard/oshare",
+    description:
+      "Online marketplace where users can list outfits and book outfits from other users.",
   },
   {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
+    id: "project-4",
+    name: "Spacewagon",
+    image: spacewagon,
+    role: "Full-Stack Developer",
+    tech: "Rails, PostgreSQL, Bootstrap",
+    url: "https://space-wagon.herokuapp.com/",
+    git: "https://github.com/mthisgaard/space-crew",
+    description:
+      "Interactive web-app, where you can create missions and assign crew members to a mission.",
   },
   {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
+    id: "project-5",
+    name: "Movie Watchlist",
+    image: watchlist,
+    role: "Full-Stack Developer",
+    tech: "Rails, PostgreSQL, Bootstrap",
+    url: "https://mt-watch-list.herokuapp.com/",
+    git: "https://github.com/mthisgaard/rails-watch-list",
+    description:
+      "Web-app to create your own movie watch lists and add your favorite movies.",
   },
 ];
 
 export const socialMedia = [
   {
     id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "malene.thisgaard@gmail.com",
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
+    link: "https://github.com/mthisgaard",
   },
   {
     id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
-  },
-];
-
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
+    link: "https://www.linkedin.com/in/malenethisgaard/",
   },
 ];
