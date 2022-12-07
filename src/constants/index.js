@@ -1,4 +1,4 @@
-import { jobjob, beyond, oshare, spacewagon, watchlist } from "../assets";
+import { jobjob, beyond, oshare, spacewagon, watchlist, html, css, bootstrap, tailwind, javascript, stimulus, react, ruby, rails, php, postgresql, git, github, heroku, figma } from "../assets";
 
 export const navLinks = [
   {
@@ -15,45 +15,72 @@ export const navLinks = [
   },
 ];
 
-export const skills = [
-  {
-    title: "Ruby & Ruby on Rails",
-  },
+export const frontskills = [
   {
     title: "HTML",
+    icon: html,
   },
   {
     title: "CSS",
+    icon: css,
   },
   {
     title: "Bootstrap",
+    icon: bootstrap,
   },
   {
     title: "Tailwind",
+    icon: tailwind,
   },
   {
-    title: "JavaScript ES6",
+    title: "JavaScript",
+    icon: javascript,
   },
   {
-    title: "StimulusJS",
+    title: "Stimulus",
+    icon: stimulus,
   },
   {
     title: "React",
+    icon: react,
+  },
+];
+
+export const backskills = [
+  {
+    title: "Ruby",
+    icon: ruby,
+  },
+  {
+    title: "Rails",
+    icon: rails,
   },
   {
     title: "PHP",
+    icon: php,
   },
   {
-    title: "SQL",
+    title: "postgreSQL",
+    icon: postgresql,
+  },
+];
+
+export const otherskills = [
+  {
+    title: "git",
+    icon: git,
   },
   {
-    title: "StimulusJS",
-  },
-  {
-    title: "git and GitHub",
+    title: "GitHub",
+    icon: github,
   },
   {
     title: "Heroku",
+    icon: heroku,
+  },
+  {
+    title: "Figma",
+    icon: figma,
   },
 ];
 
