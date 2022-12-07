@@ -86,7 +86,7 @@ export const otherskills = [
 
 export const projects = [
   {
-    id: "project-1",
+    id: 1,
     name: "JobJob",
     image: jobjob,
     role: "Project Manager & Full-Stack Developer",
@@ -97,7 +97,7 @@ export const projects = [
       "Desktop first web-app to keep track of all your job applications in one place.",
   },
   {
-    id: "project-2",
+    id: 2,
     name: "Beyond",
     image: beyond,
     role: "Full-Stack Developer",
@@ -108,7 +108,7 @@ export const projects = [
       "Landing page for a fictive space tourism company, built using React.js and Tailwind CSS",
   },
   {
-    id: "project-3",
+    id: 3,
     name: "Oshare",
     image: oshare,
     role: "Project Manager & Full-Stack Developer",
@@ -119,7 +119,7 @@ export const projects = [
       "Online marketplace where users can list outfits and book outfits from other users.",
   },
   {
-    id: "project-4",
+    id: 4,
     name: "Spacewagon",
     image: spacewagon,
     role: "Full-Stack Developer",
@@ -130,7 +130,7 @@ export const projects = [
       "Interactive web-app, where you can create missions and assign crew members to a mission.",
   },
   {
-    id: "project-5",
+    id: 5,
     name: "Movie Watchlist",
     image: watchlist,
     role: "Full-Stack Developer",
@@ -144,15 +144,15 @@ export const projects = [
 
 export const socialMedia = [
   {
-    id: "social-media-1",
+    id: "email",
     link: "malene.thisgaard@gmail.com",
   },
   {
-    id: "social-media-2",
+    id: "github",
     link: "https://github.com/mthisgaard",
   },
   {
-    id: "social-media-3",
+    id: "linkedin",
     link: "https://www.linkedin.com/in/malenethisgaard/",
   },
 ];

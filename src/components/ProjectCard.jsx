@@ -1,24 +1,22 @@
-const ProjectCard = ({ name, image, role, tech, url, git, description }) => (
-  <div className="flex justify-between flex-col px-10 py-12 rounded-[20px]  max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
-    <img src={image} alt="project image" />
-    <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10">
-      {description}
-    </p>
+import styles, { layout } from '../style';
 
-    <div className="flex flex-row">
-      <div className="flex flex-col ml-4">
-        <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
-          {role}
-        </h4>
-        <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
-          {tech}
-          {url}
-          {git}
-        </p>
+const ProjectCard = ({ id, name, image, role, tech, url, git, description }) => (
+  <div className={(id / 2 === 0) ? layout.sectionReverse : layout.section}>
+    {console.log(id)}
+    <div className={(id / 2 === 0) ? layout.sectionImgReverse : layout.sectionImg}>
+      <img src={image} alt={name} className="w-[360px] h-[360px] object-cover object-left-top hover:object-scale-down" />
+    </div>
+    <div className={layout.sectionInfo}>
+      <h2 className={`${styles.heading2}`}>{name}</h2>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>{description}</p>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Role: {role}</p>
+      <p className={`${styles.paragraph} max-w-[470px] mb-6`}>Tech: {tech}</p>
+      <div className="flex gap-3">
+        <a href={url} className="bg-white py-2 px-4 rounded-lg hover:bg-gray-200">Website</a>
+        <a href={git} className="bg-white py-2 px-4 rounded-lg hover:bg-gray-200">GitHub</a>
       </div>
     </div>
   </div>
 );
-
 
 export default ProjectCard;

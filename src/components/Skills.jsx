@@ -6,7 +6,7 @@ const Skills = () => (
     <div className="flex flex-col justify-center">
       <h2 className={styles.heading2}>Skills</h2>
       <div className={`mt-5 max-w-[70%]`}>
-        <div className="flex items-start flex-wrap justify-center">
+        <div className="flex items-start flex-wrap">
           {frontskills.map((skill, index) => (
             <div className="px-4 flex flex-col items-center mb-8 group">
               <img src={skill.icon} alt={skill.title} className="w-[40px]"/>
