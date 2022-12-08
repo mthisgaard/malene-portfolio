@@ -3,7 +3,7 @@ import styles, { layout } from '../style';
 const About = () => (
   <section id="about" className={`${layout.section} mt-8 md:mt-0 items-start`}>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>About</h2>
+      <h2 className={styles.heading2}>About Me</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Hi, I'm Malene, a Web Developer located in Tokyo, who enjoys building interactive web applications from the ground up. From my background in psychology, behavioral design, and web editing, I aspire to create enjoyable and seamless user experiences.</p>
     </div>
     <div className={layout.sectionInfo}>

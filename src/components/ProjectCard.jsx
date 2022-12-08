@@ -7,7 +7,7 @@ const ProjectCard = ({ id, name, image, role, tech, url, git, description }) => 
       <img src={image} alt={name} className="w-[360px] h-[360px] object-cover object-left-top hover:object-scale-down" />
     </div>
     <div className={layout.sectionInfo}>
-      <h2 className={`${styles.heading2}`}>{name}</h2>
+      <h3 className={`${styles.heading3}`}>{name}</h3>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>{description}</p>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Role: {role}</p>
       <p className={`${styles.paragraph} max-w-[470px] mb-6`}>Tech: {tech}</p>
