@@ -91,7 +91,7 @@ export const projects = [
     image: jobjob,
     role: "Project Manager & Full-Stack Developer",
     tech: "Rails, StimulusJS, PostgreSQL, Bootstrap",
-    url: "https://www.jobjob.pro/ ",
+    url: "https://job-tracker928.herokuapp.com/",
     git: "https://github.com/mthisgaard/jobjob",
     description:
       "Desktop first web-app to keep track of all your job applications in one place.",
