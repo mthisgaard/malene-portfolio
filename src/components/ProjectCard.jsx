@@ -1,9 +1,9 @@
 import styles, { layout } from '../style';
 
 const ProjectCard = ({ id, name, image, role, tech, url, git, description }) => (
-  <div className={layout.sectionReverse}>
+  <div className={(id % 2 === 0) ? layout.sectionReverse : layout.section}>
     {console.log(id)}
-    <div className={layout.sectionImgReverse}>
+    <div className={(id % 2 === 0) ? layout.sectionImgReverse : layout.sectionImg}>
       <img src={image} alt={name} className="w-[360px] h-[360px] object-cover object-left-top hover:object-scale-down" />
     </div>
     <div className={layout.sectionInfo}>
