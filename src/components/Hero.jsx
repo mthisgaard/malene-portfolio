@@ -10,7 +10,8 @@ const Hero = () => (
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0`}>
       <div className="flex flex-row justify-between items-center w-full">
         <h1 className="flex-1 font-poppins font-semibold ss:text-[64px] text-[44px] text-white ss:heading-[100px] leading-[60px] md:leading-[75px]">
-          MALENE THISGAARD
+          MALENE 
+          <br />THISGAARD
         </h1>
       </div>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Full-Stack Web Developer</p>

@@ -101,11 +101,11 @@ export const projects = [
     name: "Beyond",
     image: beyond,
     role: "Solo Developer",
-    tech: "React.js, Tailwind CSS",
+    tech: "React, tailwindcss",
     url: "https://space-tourism-beyond.netlify.app/",
     git: "https://github.com/mthisgaard/space-tourism-app",
     description:
-      "Landing page for a fictive space tourism company, built using React.js and Tailwind CSS",
+      "Landing page for a fictive space tourism company, built using React and tailwindcss",
   },
   {
     id: 3,

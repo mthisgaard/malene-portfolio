@@ -10,19 +10,19 @@ const Skills = () => (
           {frontskills.map((skill, index) => (
             <div key={index} className="px-4 flex flex-col items-center mb-8 group">
               <img src={skill.icon} alt={skill.title} className="w-[30px] md:w-[40px]"/>
-              <h3 className="text-white text-semibold mt-2 md:scale-0 md:group-hover:scale-100">{skill.title}</h3>
+              <h3 className="text-dimWhite text-bold mt-2 md:scale-0 md:group-hover:scale-100">{skill.title}</h3>
             </div> 
           ))}
           {backskills.map((skill, index) => (
             <div key={index} className="px-4 flex flex-col items-center mb-8 group">
               <img src={skill.icon} alt={skill.title} className="w-[30px] md:w-[40px]"/>
-              <h3 className="text-white text-semibold mt-2 md:scale-0 md:group-hover:scale-100">{skill.title}</h3>
+              <h3 className="text-dimWhite text-bold mt-2 md:scale-0 md:group-hover:scale-100">{skill.title}</h3>
             </div> 
           ))}
           {otherskills.map((skill, index) => (
             <div key={index} className="px-4 flex flex-col items-center mb-8 group">
               <img src={skill.icon} alt={skill.title} className="w-[30px] md:w-[40px]"/>
-              <h3 className="text-white text-semibold mt-2 md:scale-0 md:group-hover:scale-100">{skill.title}</h3>
+              <h3 className="text-dimWhite text-bold mt-2 md:scale-0 md:group-hover:scale-100">{skill.title}</h3>
             </div> 
           ))}
         </div>
