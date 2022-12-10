@@ -16,9 +16,9 @@ const Hero = () => (
       </div>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Full-Stack Web Developer</p>
       <div className="flex text-white gap-5 text-[24px] mt-3">
-        <a href="mailto:malene.thisgaard@gmail.com"><i className="fa-solid fa-envelope"></i></a>
-        <a href="https://github.com/mthisgaard"><i className="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/malenethisgaard/"><i className="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:malene.thisgaard@gmail.com"><i className="fa-solid fa-envelope hover:text-gray-200"></i></a>
+        <a href="https://github.com/mthisgaard"><i className="fa-brands fa-github hover:text-gray-200"></i></a>
+        <a href="https://www.linkedin.com/in/malenethisgaard/"><i className="fa-brands fa-linkedin hover:text-gray-200"></i></a>
       </div>
     </div>
   </section>
