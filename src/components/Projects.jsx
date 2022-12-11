@@ -3,7 +3,7 @@ import { projects } from '../constants';
 import ProjectCard from './ProjectCard';
 
 const Projects = () => (
-  <section id="projects" className="mt-6 md:mt-0 mb-10" >
+  <section id="projects" className={`${styles.paddingY}`}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>Projects</h2>
     </div>
