@@ -1,4 +1,4 @@
-import { jobjob, japanblog, beyond, oshare, spacewagon, watchlist, html, css, bootstrap, tailwind, javascript, nextjs, stimulus, react, ruby, rails, php, postgresql, graphql, git, github, heroku, figma, japanblog } from "../assets";
+import { jobjob, beyond, oshare, spacewagon, watchlist, html, css, bootstrap, tailwind, javascript, nextjs, stimulus, react, ruby, rails, php, postgresql, graphql, git, github, heroku, figma, japanblog } from "../assets";
 
 export const navLinks = [
   {
