@@ -4,6 +4,7 @@ import malene from "./malene.jpg";
 import jobjob from "./jobjob.png";
 import beyond from "./beyond.png";
 import oshare from "./oshare.png";
+import japanblog from "./japanblog.jpg";
 import spacewagon from "./spacewagon.png";
 import watchlist from "./watchlist.png";
 import html from "./html.svg";
@@ -21,12 +22,15 @@ import git from "./git.svg";
 import github from "./github.svg";
 import heroku from "./heroku.svg";
 import figma from "./figma.svg";
+import graphql from "./graphql.svg";
+import nextjs from "./nextjs.svg";
 
 export {
   close,
   menu,
   malene,
   jobjob,
+  japanblog,
   beyond,
   oshare,
   spacewagon,
@@ -46,4 +50,6 @@ export {
   github,
   heroku,
   figma,
+  graphql,
+  nextjs,
 };

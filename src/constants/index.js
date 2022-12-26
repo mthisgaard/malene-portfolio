@@ -1,4 +1,4 @@
-import { jobjob, beyond, oshare, spacewagon, watchlist, html, css, bootstrap, tailwind, javascript, stimulus, react, ruby, rails, php, postgresql, git, github, heroku, figma } from "../assets";
+import { jobjob, japanblog, beyond, oshare, spacewagon, watchlist, html, css, bootstrap, tailwind, javascript, nextjs, stimulus, react, ruby, rails, php, postgresql, graphql, git, github, heroku, figma, japanblog } from "../assets";
 
 export const navLinks = [
   {
@@ -44,6 +44,10 @@ export const frontskills = [
     title: "React",
     icon: react,
   },
+  {
+    title: "NextJS",
+    icon: nextjs,
+  },
 ];
 
 export const backskills = [
@@ -62,6 +66,10 @@ export const backskills = [
   {
     title: "postgreSQL",
     icon: postgresql,
+  },
+  {
+    title: "GraphQL",
+    icon: graphql,
   },
 ];
 
@@ -98,14 +106,14 @@ export const projects = [
   },
   {
     id: 2,
-    name: "Beyond",
-    image: beyond,
+    name: "Japan Blog",
+    image: japanblog,
     role: "Solo Developer",
-    tech: "React, tailwindcss",
-    url: "https://space-tourism-beyond.netlify.app/",
-    git: "https://github.com/mthisgaard/space-tourism-app",
+    tech: "React, NextJS, Tailwind and GraphQL",
+    url: "https://japan-blog-zeta.vercel.app/",
+    git: "https://github.com/mthisgaard/react-blog",
     description:
-      "Landing page for a fictive space tourism company, built using React and tailwindcss",
+      "Full-Stack blog site complete with categories, comments and featured posts",
   },
   {
     id: 3,
@@ -120,6 +128,17 @@ export const projects = [
   },
   {
     id: 4,
+    name: "Beyond",
+    image: beyond,
+    role: "Solo Developer",
+    tech: "React, tailwindcss",
+    url: "https://space-tourism-beyond.netlify.app/",
+    git: "https://github.com/mthisgaard/space-tourism-app",
+    description:
+      "Landing page for a fictive space tourism company, built using React and tailwindcss",
+  },
+  {
+    id: 5,
     name: "Spacewagon",
     image: spacewagon,
     role: "Solo Developer",
@@ -130,7 +149,7 @@ export const projects = [
       "Interactive web-app, where you can create missions and assign crew members to a mission.",
   },
   {
-    id: 5,
+    id: 6,
     name: "Movie Watchlist",
     image: watchlist,
     role: "Solo Developer",
