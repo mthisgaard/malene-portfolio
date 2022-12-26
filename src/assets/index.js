@@ -24,6 +24,7 @@ import figma from "./figma.svg";
 import japanblog from "./japanblog.jpg";
 import graphql from "./graphql.svg";
 import nextjs from "./nextjs.svg";
+import nodejs from "./nodejs.svg";
 
 export {
   close,
@@ -52,4 +53,5 @@ export {
   japanblog,
   graphql,
   nextjs,
+  nodejs,
 };

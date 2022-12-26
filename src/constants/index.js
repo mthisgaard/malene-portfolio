@@ -1,4 +1,4 @@
-import { jobjob, beyond, oshare, spacewagon, watchlist, html, css, bootstrap, tailwind, javascript, nextjs, stimulus, react, ruby, rails, php, postgresql, graphql, git, github, heroku, figma, japanblog } from "../assets";
+import { jobjob, beyond, oshare, spacewagon, watchlist, html, css, bootstrap, tailwind, javascript, nextjs, stimulus, react, ruby, rails, nodejs, php, postgresql, graphql, git, github, heroku, figma, japanblog } from "../assets";
 
 export const navLinks = [
   {
@@ -45,7 +45,7 @@ export const frontskills = [
     icon: react,
   },
   {
-    title: "NextJS",
+    title: "Next",
     icon: nextjs,
   },
 ];
@@ -58,6 +58,10 @@ export const backskills = [
   {
     title: "Rails",
     icon: rails,
+  },
+  {
+    title: "Node",
+    icon: nodejs,
   },
   {
     title: "PHP",
@@ -98,7 +102,7 @@ export const projects = [
     name: "JobJob",
     image: jobjob,
     role: "Project Manager & Full-Stack Developer",
-    tech: "Rails, StimulusJS, PostgreSQL, Bootstrap",
+    tech: "Ruby & Rails, Stimulus.js, PostgreSQL, Bootstrap",
     url: "https://job-tracker928.herokuapp.com/",
     git: "https://github.com/mthisgaard/jobjob",
     description:
@@ -109,7 +113,7 @@ export const projects = [
     name: "Japan Blog",
     image: japanblog,
     role: "Solo Developer",
-    tech: "React, NextJS, Tailwind and GraphQL",
+    tech: "React.js, Next.js, Node.js, Tailwind and GraphQL",
     url: "https://japan-blog-zeta.vercel.app/",
     git: "https://github.com/mthisgaard/react-blog",
     description:
@@ -120,7 +124,7 @@ export const projects = [
     name: "Oshare",
     image: oshare,
     role: "Project Manager & Full-Stack Developer",
-    tech: "Rails, StimulusJS, PostgreSQL, Bootstrap",
+    tech: "Rails, Stimulus.js, PostgreSQL, Bootstrap",
     url: "https://oshare-fit.herokuapp.com/",
     git: "https://github.com/mthisgaard/oshare",
     description:
@@ -131,7 +135,7 @@ export const projects = [
     name: "Beyond",
     image: beyond,
     role: "Solo Developer",
-    tech: "React, tailwindcss",
+    tech: "React.js, tailwindcss",
     url: "https://space-tourism-beyond.netlify.app/",
     git: "https://github.com/mthisgaard/space-tourism-app",
     description:
@@ -142,7 +146,7 @@ export const projects = [
     name: "Spacewagon",
     image: spacewagon,
     role: "Solo Developer",
-    tech: "Rails, PostgreSQL, Bootstrap",
+    tech: "Ruby & Rails, PostgreSQL, Bootstrap",
     url: "https://space-wagon.herokuapp.com/",
     git: "https://github.com/mthisgaard/space-crew",
     description:
@@ -153,7 +157,7 @@ export const projects = [
     name: "Movie Watchlist",
     image: watchlist,
     role: "Solo Developer",
-    tech: "Rails, PostgreSQL, Bootstrap",
+    tech: "Ryby & Rails, PostgreSQL, Bootstrap",
     url: "https://mt-watch-list.herokuapp.com/",
     git: "https://github.com/mthisgaard/rails-watch-list",
     description:
