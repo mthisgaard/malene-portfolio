@@ -25,6 +25,7 @@ import japanblog from "./japanblog.jpg";
 import graphql from "./graphql.svg";
 import nextjs from "./nextjs.svg";
 import nodejs from "./nodejs.svg";
+import mysql from "./mysql.svg";
 
 export {
   close,
@@ -54,4 +55,5 @@ export {
   graphql,
   nextjs,
   nodejs,
+  mysql,
 };

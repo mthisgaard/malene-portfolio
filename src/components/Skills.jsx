@@ -5,7 +5,7 @@ const Skills = () => (
   <section id="skills" className={styles.paddingY}>
     <h2 className={styles.heading2}>Skills</h2>
     <div className="flex justify-center mt-12 md:mt-0">
-      <div className={`mt-8 md:w-[60%] justify-center`}>
+      <div className={`mt-8 md:w-[70%] justify-center`}>
         <div className="flex items-start flex-wrap justify-center">
           {frontskills.map((skill, index) => (
             <div key={index} className="px-4 flex flex-col items-center mb-8 group">

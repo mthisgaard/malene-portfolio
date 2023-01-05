@@ -1,4 +1,4 @@
-import { jobjob, beyond, oshare, spacewagon, watchlist, html, css, bootstrap, tailwind, javascript, nextjs, stimulus, react, ruby, rails, nodejs, php, postgresql, graphql, git, github, heroku, figma, japanblog } from "../assets";
+import { jobjob, beyond, oshare, spacewagon, watchlist, html, css, bootstrap, tailwind, javascript, nextjs, stimulus, react, ruby, rails, nodejs, php, mysql, postgresql, graphql, git, github, heroku, figma, japanblog } from "../assets";
 
 export const navLinks = [
   {
@@ -70,6 +70,10 @@ export const backskills = [
   {
     title: "postgreSQL",
     icon: postgresql,
+  },
+  {
+    title: "MySQL",
+    icon: mysql,
   },
   {
     title: "GraphQL",
