@@ -4,7 +4,9 @@ const About = () => (
   <section id="about" className={`flex md:gap-16 md:flex-row flex-col ${styles.paddingY} items-start`}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>About Me</h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Hi, I'm Malene, a Web Developer located in Tokyo, who enjoys building interactive web applications from the ground up. From my background in psychology, behavioral design, and web editing, I aspire to create enjoyable and seamless user experiences.</p>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Hi there 👋 I'm Malene, a Web Developer located in Tokyo.</p>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}> I relocated to Japan from Denmark to kickstart my career in Web Development and I am excited to combine my MSc in Psychology and background in behavioral design, and web editing with my full-stack coding skills, to create enjoyable and seamless user experiences.</p>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>With experience in both front- and backend development, I aspire to be part of every step of the process, building projects from the ground up.</p>
     </div>
     <div className={layout.sectionInfo}>
       <div>
