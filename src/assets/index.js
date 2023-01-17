@@ -26,6 +26,7 @@ import graphql from "./graphql.svg";
 import nextjs from "./nextjs.svg";
 import nodejs from "./nodejs.svg";
 import mysql from "./mysql.svg";
+import millionplants from "./millionplants.png";
 
 export {
   close,
@@ -56,4 +57,5 @@ export {
   nextjs,
   nodejs,
   mysql,
+  millionplants
 };

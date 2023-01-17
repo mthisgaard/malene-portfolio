@@ -1,4 +1,4 @@
-import { jobjob, beyond, oshare, spacewagon, watchlist, html, css, bootstrap, tailwind, javascript, nextjs, stimulus, react, ruby, rails, nodejs, php, mysql, postgresql, graphql, git, github, heroku, figma, japanblog } from "../assets";
+import { jobjob, beyond, oshare, spacewagon, watchlist, millionplants, html, css, bootstrap, tailwind, javascript, nextjs, stimulus, react, ruby, rails, nodejs, php, mysql, postgresql, graphql, git, github, heroku, figma, japanblog } from "../assets";
 
 export const navLinks = [
   {
@@ -114,6 +114,17 @@ export const projects = [
   },
   {
     id: 2,
+    name: "Million Plants",
+    image: millionplants,
+    role: "Solo Full-Stack Developer",
+    tech: "React, Tailwind and GraphQL",
+    url: "https://million-plants.netlify.app/",
+    git: "https://github.com/mthisgaard/million-plants-storefront",
+    description:
+      "Customized Shopify storefront created with Hydrogen's React-based framework.",
+  },
+  {
+    id: 3,
     name: "Japan Blog",
     image: japanblog,
     role: "Solo Full-Stack Developer",
@@ -124,7 +135,7 @@ export const projects = [
       "Full-Stack blog site with categories, featured post carousel, recent posts on the front page, and related posts and comment sections for each post.",
   },
   {
-    id: 3,
+    id: 4,
     name: "Oshare",
     image: oshare,
     role: "Project Manager & Full-Stack Developer",
@@ -135,7 +146,7 @@ export const projects = [
       "Marketplace app for outfit rentals. Search outfits and browse map of locations. Book outfits, see the calculated total price, and leave a review. List outfits and accept or reject bookings.",
   },
   {
-    id: 4,
+    id: 5,
     name: "Beyond",
     image: beyond,
     role: "Solo Full-Stack Developer",
@@ -146,7 +157,7 @@ export const projects = [
       "Landing page for a fictive space tourism company, built using React and tailwindcss",
   },
   {
-    id: 5,
+    id: 6,
     name: "Spacewagon",
     image: spacewagon,
     role: "Solo Full-Stack Developer",
@@ -157,7 +168,7 @@ export const projects = [
       "Interactive web-app, where you can create missions and assign crew members to a mission.",
   },
   {
-    id: 6,
+    id: 7,
     name: "Movie Watchlist",
     image: watchlist,
     role: "Solo Full-Stack Developer",
