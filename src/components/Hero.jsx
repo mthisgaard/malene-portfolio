@@ -1,6 +1,5 @@
 import styles from '../style';
 import { malene } from '../assets';
-import { socialMedia } from '../constants';
 
 const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col px-16`}>
