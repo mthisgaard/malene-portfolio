@@ -15,8 +15,8 @@ const ProjectCard = ({ id, name, image, role, tech, url, git, description }) => 
           <p className={`${styles.paragraph} mb-6`}>Tech: {tech}</p>
         </div>
         <div className={`flex gap-3 ${(id % 2 === 0) ? "md:justify-end" : ""}`}>
-          <a href={url} className="bg-white py-2 px-4 rounded-lg hover:bg-gray-200">Website</a>
-          <a href={git} className="bg-white py-2 px-4 rounded-lg hover:bg-gray-200">GitHub</a>
+          <a href={url} className="bg-white py-2 px-4 rounded-lg opacity-80 hover:opacity-100 duration-500 transform hover:-translate-y-1">Website</a>
+          <a href={git} className="bg-white py-2 px-4 rounded-lg opacity-80 hover:opacity-100 duration-500 transform hover:-translate-y-1">GitHub</a>
         </div>
       </div>
     </div>
