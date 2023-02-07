@@ -1,4 +1,4 @@
-import { jobjob, beyond, oshare, spacewagon, watchlist, millionplants, html, css, bootstrap, tailwind, javascript, nextjs, stimulus, react, ruby, rails, nodejs, php, mysql, postgresql, graphql, git, github, heroku, figma, japanblog } from "../assets";
+import { jobjob, beyond, oshare, spacewagon, watchlist, millionplants, html, css, bootstrap, tailwind, javascript, typescript, vue, nextjs, stimulus, react, ruby, rails, nodejs, php, mysql, postgresql, graphql, git, github, heroku, figma, japanblog } from "../assets";
 
 export const navLinks = [
   {
@@ -37,6 +37,10 @@ export const frontskills = [
     icon: javascript,
   },
   {
+    title: "TypeScript",
+    icon: typescript,
+  },
+  {
     title: "Stimulus",
     icon: stimulus,
   },
@@ -47,6 +51,10 @@ export const frontskills = [
   {
     title: "Next",
     icon: nextjs,
+  },
+  {
+    title: "Vue",
+    icon: vue,
   },
 ];
 
