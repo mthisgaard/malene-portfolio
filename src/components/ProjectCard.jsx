@@ -4,9 +4,12 @@ import Fade from 'react-reveal/Fade';
 const ProjectCard = ({ id, name, image, role, tech, url, git, description }) => (
   <Fade bottom>
     <div className={`${(id % 2 === 0) ? layout.sectionReverse : layout.section}`}>
-      <div className={(id % 2 === 0) ? layout.sectionImgReverse : layout.sectionImg}>
-        <img src={image} alt={name} className="w-full h-[200px] xs:w-[550px] xs:h-[450px] object-cover object-left-top hover:object-scale-down" />
-      </div>
+      
+      <a href={url} target="_blank">
+        <div className={(id % 2 === 0) ? layout.sectionImgReverse : layout.sectionImg}>
+          <img src={image} alt={name} className="w-full h-[200px] xs:w-[550px] xs:h-[450px] object-cover object-left-top hover:object-scale-down" />
+        </div>
+      </a>
       <div className={layout.sectionInfo}>
         <div>
           <h3 className={`${styles.heading3}`}>{name}</h3>
